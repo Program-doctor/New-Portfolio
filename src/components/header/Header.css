@@ -1,0 +1,91 @@
+#top{
+    margin: 0;
+    font-family: 'Bricolage Grotesque';
+}
+
+#top p{
+    margin-bottom: 0px;
+}
+#top h1{
+    margin: 0;
+}
+#top h1, .dev-me {
+  margin-bottom: 0.4rem;
+}
+.dev-me{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+.dev-me span {
+    padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-size: 1.3rem; 
+}
+
+.dev-me #web{
+    margin-right:5px;
+    color: var(--color-primary); 
+}
+
+
+#top h5{
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 1em;
+}
+#top a{
+    margin-right: 15px;
+    text-decoration: none;
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+ #top img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; 
+  border: 2.5px solid white;
+  border-radius: 50%;
+}
+
+.scroll{
+    position: absolute;
+    right: 5%;
+    transform: translateX(-80%);
+    bottom: 5%;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 600px){
+    #top h1{
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    #top h5{
+        font-size: 0.87em;
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+    }
+    .dev-me{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .dev-me span{
+        margin-bottom: 0.4rem;
+    }
+    .scroll{
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+    .scroll{
+        bottom: 13.5%;
+        right: 1%;
+    }
+}
