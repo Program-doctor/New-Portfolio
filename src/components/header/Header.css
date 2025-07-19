@@ -1,6 +1,7 @@
 #top{
     margin: 0;
     font-family: 'Bricolage Grotesque';
+    position:relative;
 }
 
 #top p{

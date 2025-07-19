@@ -1,4 +1,3 @@
-import React from "react";
 import resume from "../../profiles/resume.pdf";
 import profile1 from "../../profiles/Promise.png"
 import "../header/Header.css"

@@ -1,4 +1,3 @@
-import React from "react";
 import profile3 from "../../profiles/profile1.jpg";
 import "./About.css"
 import { BiCodeBlock } from 'react-icons/bi';

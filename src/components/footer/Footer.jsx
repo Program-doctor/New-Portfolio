@@ -1,4 +1,3 @@
-import React from "react";
 import './Footer.css';
 import { BsLinkedin, BsGithub ,BsInstagram} from 'react-icons/bs';
 
