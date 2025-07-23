@@ -33,7 +33,13 @@ export default function Contact(){
                 <a href="https://www.linkedin.com/in/sylvester-promise-queen-of-ai-7492a5247/" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
             </div>
-            <form method="post" name="contact" data-netlify="true" netlify-honeypot="bot-field" action="/Success" id="form">
+            <form 
+            method="POST" 
+            name="contact" 
+            data-netlify="true" 
+            netlify-honeypot="bot-field" 
+            action="/Success" 
+            id="form">
             <input type="hidden" name="form-name" value="contact" />
             <input type="hidden" name="bot-field" />
             <input type="text" name="name" placeholder="Your Full Name" required/>
