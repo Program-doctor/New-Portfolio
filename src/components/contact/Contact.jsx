@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import './Contact.css';
 import { FiMail } from 'react-icons/fi';
 import { BsWhatsapp } from 'react-icons/bs';
@@ -33,8 +33,9 @@ export default function Contact(){
                 <a href="https://www.linkedin.com/in/sylvester-promise-queen-of-ai-7492a5247/" target="_blank" rel="noopener noreferrer" title="Send me a message">Send a message</a>
                 </div>
             </div>
-            <form method="post" name="contact" action="/Success" id="form">
-                 <input type="hidden" name="form-name" value="contact" />
+            <form method="post" name="contact" data-netlify="true" netlify-honeypot="bot-field" action="/Success" id="form">
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" />
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" color="red" placeholder="Your Email" required/>
             <textarea name="message" rows="7" placeholder="Leave a Message"></textarea>
